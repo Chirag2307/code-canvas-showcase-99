@@ -1,5 +1,5 @@
 
-import { GitHub, Linkedin, Mail, ChevronUp } from "lucide-react";
+import { Github, Linkedin, Mail, ChevronUp } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -30,7 +30,7 @@ const Footer = () => {
               className="text-foreground/70 hover:text-foreground transition-colors"
               aria-label="GitHub"
             >
-              <GitHub size={20} />
+              <Github size={20} />
             </a>
             <a
               href="https://linkedin.com"
